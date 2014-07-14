@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:paddingRight="35dip"/>
+    
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip" />
+</RelativeLayout>
